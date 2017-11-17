@@ -1,0 +1,238 @@
+body {
+	font-family: 'Barlow', 'sans-serif';
+}
+
+.main-container {
+	display: flex;
+	justify-content: center;
+	background-color: #F8EEF4;
+
+}
+
+.container {
+	background-image: url(photos/image1.jpg);
+	background-repeat: no-repeat;
+	height: 755px;	
+	width: 1004px;
+}
+
+header {
+	background-color: ;
+	opacity: 0.7;
+	height: 180px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.main-nav {
+	height: 30px;
+	width: 50%;
+	background-color:  ;
+	padding-top: 10px;
+}
+.main-nav ul {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.main-nav li {
+	font-size: 1.15rem;
+	background-color: ;
+	padding-top: 11px;
+	color: white;
+}
+
+.info-section {
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	background-color: ;
+	height: 400px;
+
+}
+
+.info-box {
+	background-color: ;
+	width: 40%;
+	padding: 0px ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+.info-box img {
+	height: 100%;
+	border: 2px solid white;
+	border-radius: 10px;
+	width: 100%;
+}
+
+.text-box {
+	background-color: ;
+	width: 70%;
+	height: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.text-box p {
+	font-size: 1.10rem;
+	font-weight: 300;
+	color: white;
+	line-height: 19px;
+	letter-spacing: 2px;
+}
+
+.review-bar {
+	height: 250px;
+	background-color: ;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 20px;
+}
+
+.review-box {
+	width: 19%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.review-box img {
+	height: 100%;
+	width: 100%;
+}
+
+.review-box h4, p {
+	text-align: center;
+	font-size: 1.10rem;
+	font-style: italic;
+	padding-bottom: 8px;
+	color: #C2A342;
+}
+
+/*
+header {
+	background-image: url('https://images-na.ssl-images-amazon.com/images/I/71aRE1uA8tL._SL1500_.jpg');
+	background-position: center;
+	height: 15rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo h3 {
+	font-size: 1.5rem;
+	color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+	text-align: center;	
+}
+
+.logo h1 {
+	font-family: Aller, sans-serif;
+	font-weight: 700;
+	font-size: 4.9rem;
+	letter-spacing: 20px;
+	text-shadow: 5px 4px #FAF9F3;
+	text-align: center;
+	color: black;
+}
+
+.main-nav {
+	height: 40px;
+	
+}
+
+.main-nav ul {
+	display: flex;
+	justify-content: space-around;	
+}
+
+.main-nav li {
+	font-size: 1.2rem;
+	color: white;
+} 
+
+
+/*
+
+.quote {
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	word-spacing: 2px;
+}
+
+.quote h3 {
+	font-size: 1.7rem;
+	color: #8E2406;
+	font-style: italic;
+	font-weight: lighter;
+}
+
+.tiles-row {
+	height: 250px;
+	padding: 0px 50px;
+	display: flex;
+	justify-content: center;
+
+}
+
+.tile-photo img {
+	height: 100%;
+	width: 250px;
+
+}
+
+
+.tile-quote, .tile-quote-white {
+	background-color: #201E1D;
+	height: 100%;
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.tile-quote-white {
+	background-color: white;
+
+
+}
+
+.tile-quote p {
+	color: white;
+	
+	font-style: italic;
+	padding: 10px 10px;
+	text-align: center;
+}
+
+.tile-quote-white p {
+	font-style: italic;
+	padding: 10px 10px;
+	text-align: center;
+
+}
+
+
+#border-top {
+	border-top: thin solid black;
+}
+
+#border-bottom {
+	border-bottom: thin solid black;
+}
+
+
