@@ -101,6 +101,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	background-color: #2D2C2C;
 }
 
 .review-box img {
@@ -112,40 +113,12 @@ header {
 	text-align: center;
 	font-size: 1.10rem;
 	font-style: italic;
+	font-weight: 300;
 	padding-bottom: 8px;
-	color: #C2A342;
-}
-
-/*
-header {
-	background-image: url('https://images-na.ssl-images-amazon.com/images/I/71aRE1uA8tL._SL1500_.jpg');
-	background-position: center;
-	height: 15rem;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.logo h3 {
-	font-size: 1.5rem;
 	color: white;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000; 
-	text-align: center;	
 }
 
-.logo h1 {
-	font-family: Aller, sans-serif;
-	font-weight: 700;
-	font-size: 4.9rem;
-	letter-spacing: 20px;
-	text-shadow: 5px 4px #FAF9F3;
-	text-align: center;
-	color: black;
-}
+
 
 .main-nav {
 	height: 40px;
@@ -161,78 +134,4 @@ header {
 	font-size: 1.2rem;
 	color: white;
 } 
-
-
-/*
-
-.quote {
-	height: 200px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	word-spacing: 2px;
-}
-
-.quote h3 {
-	font-size: 1.7rem;
-	color: #8E2406;
-	font-style: italic;
-	font-weight: lighter;
-}
-
-.tiles-row {
-	height: 250px;
-	padding: 0px 50px;
-	display: flex;
-	justify-content: center;
-
-}
-
-.tile-photo img {
-	height: 100%;
-	width: 250px;
-
-}
-
-
-.tile-quote, .tile-quote-white {
-	background-color: #201E1D;
-	height: 100%;
-	width: 250px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.tile-quote-white {
-	background-color: white;
-
-
-}
-
-.tile-quote p {
-	color: white;
-	
-	font-style: italic;
-	padding: 10px 10px;
-	text-align: center;
-}
-
-.tile-quote-white p {
-	font-style: italic;
-	padding: 10px 10px;
-	text-align: center;
-
-}
-
-
-#border-top {
-	border-top: thin solid black;
-}
-
-#border-bottom {
-	border-bottom: thin solid black;
-}
-
 
