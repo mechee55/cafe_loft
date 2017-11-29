@@ -5,19 +5,20 @@ body {
 .main-container {
 	display: flex;
 	justify-content: center;
-	background-color: #F8EEF4;
+	background-color: #C4B2BE;
+	/*background-image: url(photos/backimage2.jpg);*/
+
 
 }
 
 .container {
-	background-image: url(photos/image1.jpg);
+	background-image: url(photos/editedImage3.jpg);
 	background-repeat: no-repeat;
 	height: 755px;	
 	width: 1004px;
 }
 
 header {
-	background-color: ;
 	opacity: 0.7;
 	height: 180px;
 	display: flex;
@@ -26,74 +27,69 @@ header {
 }
 
 .main-nav {
-	height: 30px;
 	width: 50%;
-	background-color:  ;
-	padding-top: 10px;
 }
+
 .main-nav ul {
 	display: flex;
 	justify-content: space-around;
-
 }
 
 .main-nav li {
-	font-size: 1.15rem;
-	background-color: ;
-	padding-top: 11px;
+	font-size: 1.2rem;
+	padding-top: 21px;
 	color: white;
 }
 
 .info-section {
-	margin-top: 100px;
+	margin-top: 40px;
 	display: flex;
 	justify-content: center;
-	background-color: ;
-	height: 400px;
-
+	height: 100px;
+	
 }
 
 .info-box {
-	background-color: ;
-	width: 40%;
-	padding: 0px ;
+	width: 50%;
+	height: 90px;
+	margin-top: 30px;
 	display: flex;
 	justify-content: center;
-	align-items: center;
-
-
-}
-
-.info-box img {
-	height: 100%;
-	border: 2px solid white;
-	border-radius: 10px;
-	width: 100%;
+	
 }
 
 .text-box {
-	background-color: ;
-	width: 70%;
-	height: 30%;
+	
+	width: 80%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	align-items: center;
+	
 }
 
 .text-box p {
 	font-size: 1.10rem;
 	font-weight: 300;
 	color: white;
-	line-height: 19px;
 	letter-spacing: 2px;
+}
+
+.text-box a {
+	text-decoration: none;
+	color: white;
+}
+
+.text-box a:hover {
+	font-size: 105%;
 }
 
 .review-bar {
 	height: 250px;
-	background-color: ;
+	background-color: #F4EEF2;
 	display: flex;
 	justify-content: space-between;
-	padding: 20px 20px;
+	padding: 20px 20px;	
 }
 
 .review-box {
@@ -101,37 +97,63 @@ header {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background-color: #2D2C2C;
 }
 
 .review-box img {
 	height: 100%;
 	width: 100%;
-}
-
-.review-box h4, p {
-	text-align: center;
-	font-size: 1.10rem;
-	font-style: italic;
-	font-weight: 300;
-	padding-bottom: 8px;
-	color: white;
+	border-radius: 50%;
+	border: 2px solid #551425;
 }
 
 
 
-.main-nav {
-	height: 40px;
-	
-}
-
-.main-nav ul {
+.menu-page {
 	display: flex;
-	justify-content: space-around;	
+	flex-direction: column;
+	align-items: center;
+	background-color: #C4B2BE;
+	padding-bottom: 150px;
 }
 
-.main-nav li {
-	font-size: 1.2rem;
+.menu-nav h2 {
+	font-family: 'Fondamento', cursive;
+	font-size: 3rem;
 	color: white;
-} 
+	text-align: center;
+	margin-top: 100px;
+}
+
+.menu-nav {
+	width: 400px;
+
+
+}
+.menu-page ul {
+	display: flex;
+	justify-content: space-between;
+	margin: 80px 0px;
+	color: white;
+}
+
+.menu-page li {
+	font-size: 1.3rem;
+}
+
+.menu {
+	background-color: #424141;
+	padding: 50px 50px;
+}
+
+
+.menu img {
+	width: 100%;
+
+}
+
+footer {
+	background-color: #EBE8EA;
+	height: 100px;
+}
+
 
